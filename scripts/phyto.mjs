@@ -72,9 +72,15 @@ export function build(csv, today = new Date().toISOString().slice(0, 10)) {
   return { maj: today, source: "ANSES, catalogue E-Phy (data.gouv.fr, Licence Ouverte)", autorises: a, retires: r, produits };
 }
 
+/** Texte du fichier : UTF-8 si valide, sinon Windows-1252 (l'ANSES publie les deux encodages). */
+export function decode(buf) {
+  try { return new TextDecoder("utf-8", { fatal: true }).decode(buf); }
+  catch { return new TextDecoder("windows-1252").decode(buf); }
+}
+
 if (import.meta.url === `file://${process.argv[1]}`) {
   const [src, out = "phyto.json"] = process.argv.slice(2);
-  const j = build(readFileSync(src, "utf8"));
+  const j = build(decode(readFileSync(src)));
   writeFileSync(out, JSON.stringify(j));
   console.log(`phyto.json : ${j.autorises} produits autorisés, ${j.retires} retirés depuis moins de 10 ans.`);
 }

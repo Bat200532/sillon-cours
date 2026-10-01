@@ -21,12 +21,12 @@ jobs:
         with: { node-version: 22 }
       - name: Tests du script
         run: node --test tests/phyto.test.mjs
-      - name: Téléchargement E-Phy (CSV UTF-8)
+      - name: Téléchargement E-Phy
         run: |
           curl -fsSL --retry 4 --retry-delay 20 -o /tmp/ephy.zip "https://www.data.gouv.fr/api/1/datasets/r/98f7cac6-6b29-4859-8739-51b825196959"
           mkdir -p /tmp/ephy && unzip -o -q /tmp/ephy.zip -d /tmp/ephy
           ls -la /tmp/ephy
-          F=$(ls /tmp/ephy | grep -iE '^produits(_utf8)?\.csv$' | head -1)
+          F=$(ls /tmp/ephy | grep -iE '^produits(_utf8|_windows-1252)?\.csv$' | head -1)
           [ -n "$F" ] || F=$(ls /tmp/ephy | grep -iE '^produits.*\.csv$' | grep -viE 'usage|phrase|condition|composition|classe' | head -1)
           [ -n "$F" ] || { echo "Fichier produits introuvable"; exit 1; }
           echo "PRODUITS=/tmp/ephy/$F" >> "$GITHUB_ENV"

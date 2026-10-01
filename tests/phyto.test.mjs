@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { build, columns, isoDate, parseCsv } from "../scripts/phyto.mjs";
+import { build, columns, decode, isoDate, parseCsv } from "../scripts/phyto.mjs";
 
 test("CSV : guillemets, points-virgules et retours à la ligne dans les champs", () => {
   assert.deepEqual(parseCsv('a;"b;c";"d ""e"""\r\n1;"x\ny";3\n'), [["a", "b;c", 'd "e"'], ["1", "x\ny", "3"]]);
@@ -30,4 +30,9 @@ test("catalogue : autorisés, retirés récents, retirés anciens écartés, aut
   assert.equal(j.produits["1234567"], undefined, "matière fertilisante : hors catalogue phyto");
   assert.equal(j.autorises, 600);
   assert.throws(() => build("numero AMM;nom produit;etat;date de retrait\n2150000;X;AUTORISE;\n"), /inattendu/);
+});
+
+test("encodage : UTF-8 ou Windows-1252", () => {
+  assert.equal(decode(Buffer.from("Etat d’autorisation;Numéro", "utf8")), "Etat d’autorisation;Numéro");
+  assert.equal(decode(Buffer.from([0x4e, 0x75, 0x6d, 0xe9, 0x72, 0x6f, 0x92])), "Numéro’");
 });
