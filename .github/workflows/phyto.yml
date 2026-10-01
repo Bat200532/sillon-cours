@@ -1,0 +1,45 @@
+# Catalogue phytosanitaire de Sillon : chaque mercredi matin (l'ANSES publie E-Phy le mardi soir),
+# télécharge les données ouvertes, construit phyto.json et le publie dans ce dépôt.
+# Sur une demande de modification : construction seule, pour contrôle (rien n'est publié).
+name: Catalogue phyto (E-Phy)
+on:
+  schedule:
+    - cron: "17 5 * * 3"
+  workflow_dispatch:
+  pull_request:
+    paths: ["scripts/phyto.mjs", "tests/**", ".github/workflows/phyto.yml"]
+permissions:
+  contents: write
+concurrency: { group: phyto, cancel-in-progress: false }
+jobs:
+  phyto:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Tests du script
+        run: node --test tests/phyto.test.mjs
+      - name: Téléchargement E-Phy (CSV UTF-8)
+        run: |
+          curl -fsSL --retry 4 --retry-delay 20 -o /tmp/ephy.zip "https://www.data.gouv.fr/api/1/datasets/r/98f7cac6-6b29-4859-8739-51b825196959"
+          mkdir -p /tmp/ephy && unzip -o -q /tmp/ephy.zip -d /tmp/ephy
+          ls -la /tmp/ephy
+          F=$(ls /tmp/ephy | grep -iE '^produits(_utf8)?\.csv$' | head -1)
+          [ -n "$F" ] || F=$(ls /tmp/ephy | grep -iE '^produits.*\.csv$' | grep -viE 'usage|phrase|condition|composition|classe' | head -1)
+          [ -n "$F" ] || { echo "Fichier produits introuvable"; exit 1; }
+          echo "PRODUITS=/tmp/ephy/$F" >> "$GITHUB_ENV"
+          head -1 "/tmp/ephy/$F"
+      - name: Construction de phyto.json
+        run: node scripts/phyto.mjs "$PRODUITS" phyto.json
+      - name: Publication
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "Sillon (catalogue phyto)"
+          git config user.email "ch.batellier@gmail.com"
+          git add phyto.json
+          if git diff --cached --quiet; then echo "Catalogue inchangé"; exit 0; fi
+          git commit -m "Catalogue phyto E-Phy du $(date +%d/%m/%Y)"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 15; done
+          exit 1
