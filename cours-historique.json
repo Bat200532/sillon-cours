@@ -1,0 +1,147 @@
+{
+ "maj": "2026-09-30",
+ "note": "Historique des cours (un point par séance). Complété chaque soir par la tâche des cours, à partir de prix.json.",
+ "series": [
+  {
+   "produit": "Blé tendre",
+   "cultures": [
+    "Blé tendre"
+   ],
+   "marche": "Euronext · échéance déc. 2026",
+   "points": [
+    [
+     "2026-09-25",
+     236.75
+    ]
+   ]
+  },
+  {
+   "produit": "Blé tendre",
+   "cultures": [
+    "Blé tendre"
+   ],
+   "marche": "Physique · rendu Rouen",
+   "points": [
+    [
+     "2026-09-25",
+     230
+    ],
+    [
+     "2026-09-28",
+     230
+    ],
+    [
+     "2026-09-29",
+     227
+    ]
+   ]
+  },
+  {
+   "produit": "Maïs",
+   "cultures": [
+    "Maïs grain"
+   ],
+   "marche": "Euronext · échéance nov. 2026",
+   "points": [
+    [
+     "2026-09-25",
+     271
+    ]
+   ]
+  },
+  {
+   "produit": "Maïs",
+   "cultures": [
+    "Maïs grain"
+   ],
+   "marche": "Physique · rendu Bordeaux",
+   "points": [
+    [
+     "2026-09-25",
+     275.75
+    ],
+    [
+     "2026-09-28",
+     273.75
+    ],
+    [
+     "2026-09-29",
+     272.75
+    ]
+   ]
+  },
+  {
+   "produit": "Colza",
+   "cultures": [
+    "Colza"
+   ],
+   "marche": "Euronext · échéance nov. 2026",
+   "points": [
+    [
+     "2026-09-25",
+     548
+    ],
+    [
+     "2026-09-29",
+     536.5
+    ]
+   ]
+  },
+  {
+   "produit": "Colza",
+   "cultures": [
+    "Colza"
+   ],
+   "marche": "Physique · rendu Rouen",
+   "points": [
+    [
+     "2026-09-25",
+     532.5
+    ],
+    [
+     "2026-09-28",
+     529.25
+    ],
+    [
+     "2026-09-29",
+     524.5
+    ]
+   ]
+  },
+  {
+   "produit": "Orge fourragère",
+   "cultures": [
+    "Orge d'hiver",
+    "Orge de printemps"
+   ],
+   "marche": "Physique · rendu Rouen",
+   "points": [
+    [
+     "2026-09-02",
+     220
+    ],
+    [
+     "2026-09-24",
+     214.5
+    ]
+   ]
+  },
+  {
+   "produit": "Tournesol oléique",
+   "cultures": [
+    "Tournesol"
+   ],
+   "marche": "Physique · rendu Saint-Nazaire",
+   "points": [
+    [
+     "2026-09-02",
+     590
+    ],
+    [
+     "2026-09-24",
+     590
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+  "maj": "2026-09-29",
+  "note": "Cours de référence. Mettre à jour ce fichier pour actualiser l'onglet Marchés sans toucher au code.",
+  "cours": [
+    {
+      "produit": "Blé tendre",
+      "cultures": [
+        "Blé tendre"
+      ],
+      "marche": "Euronext · échéance déc. 2026",
+      "prix": 236.75,
+      "variation": -0.75,
+      "date": "2026-09-25",
+      "source": "Euronext, relevé Terre-net"
+    },
+    {
+      "produit": "Blé tendre",
+      "cultures": [
+        "Blé tendre"
+      ],
+      "marche": "Physique · rendu Rouen",
+      "prix": 227,
+      "variation": -3,
+      "date": "2026-09-29",
+      "source": "Terre-net"
+    },
+    {
+      "produit": "Maïs",
+      "cultures": [
+        "Maïs grain"
+      ],
+      "marche": "Euronext · échéance nov. 2026",
+      "prix": 271,
+      "variation": -4.25,
+      "date": "2026-09-25",
+      "source": "Euronext, relevé Terre-net"
+    },
+    {
+      "produit": "Maïs",
+      "cultures": [
+        "Maïs grain"
+      ],
+      "marche": "Physique · rendu Bordeaux",
+      "prix": 272.75,
+      "variation": -1,
+      "date": "2026-09-29",
+      "source": "Terre-net"
+    },
+    {
+      "produit": "Colza",
+      "cultures": [
+        "Colza"
+      ],
+      "marche": "Euronext · échéance nov. 2026",
+      "prix": 536.5,
+      "variation": 9.25,
+      "date": "2026-09-29",
+      "source": "Euronext, relevé Terre-net"
+    },
+    {
+      "produit": "Colza",
+      "cultures": [
+        "Colza"
+      ],
+      "marche": "Physique · rendu Rouen",
+      "prix": 524.5,
+      "variation": -4.75,
+      "date": "2026-09-29",
+      "source": "Terre-net"
+    },
+    {
+      "produit": "Orge fourragère",
+      "cultures": [
+        "Orge d'hiver",
+        "Orge de printemps"
+      ],
+      "marche": "Physique · rendu Rouen",
+      "prix": 214.5,
+      "variation": -3,
+      "date": "2026-09-24",
+      "source": "La Dépêche – Le Petit Meunier"
+    },
+    {
+      "produit": "Tournesol oléique",
+      "cultures": [
+        "Tournesol"
+      ],
+      "marche": "Physique · rendu Saint-Nazaire",
+      "prix": 590,
+      "variation": 0,
+      "date": "2026-09-24",
+      "source": "La Dépêche – Le Petit Meunier"
+    }
+  ]
+}
