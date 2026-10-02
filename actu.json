@@ -1,0 +1,69 @@
+{
+ "maj": "2026-10-02",
+ "source": "Agent Veille réglementaire de Sillon : chaque point est vérifié à sa source officielle",
+ "items": [
+  {
+   "id": "2026-09-25-eau-37-escotais",
+   "date": "2026-09-25",
+   "niveau": "urgent",
+   "theme": "eau",
+   "titre": "Escotais : irrigation limitée jusqu'au 31 octobre.",
+   "texte": "L'Escotais et ses affluents sont en restriction renforcée anticipée. Pour les pompages dans la rivière ou à moins de 200 m de ses bords, l'arrosage par aspersion est interdit 3 jours par semaine, selon le tour d'eau des irrigants ou, à défaut, un jour sur deux selon la rive (détail dans l'arrêté). Le goutte-à-goutte reste autorisé.",
+   "source": "Arrêté préfectoral d'Indre-et-Loire du 25/09/2026",
+   "url": "https://regleau.s3.gra.perf.cloud.ovh.net/arrete-restriction/38159/51987da2-ed2a-42e3-bc1f-8b47d5c3a164/20260925+AP+secheresse+du+25+septembre+2026_sign%C3%83%C2%A9.pdf",
+   "jusqu_au": "2026-10-31",
+   "depts": [
+    "37"
+   ],
+   "titre_en": "Escotais: irrigation limited until 31 October.",
+   "texte_en": "The Escotais and its tributaries are under anticipated heightened restriction. For abstraction from the river or within 200 m of its banks, sprinkler irrigation is banned 3 days a week, following the irrigators' rota or, failing that, every other day depending on the bank (details in the order). Drip irrigation remains allowed."
+  },
+  {
+   "id": "2025-05-20-flufenacet",
+   "date": "2025-05-20",
+   "niveau": "info",
+   "theme": "phyto",
+   "titre": "Flufénacet : dernier automne d'utilisation.",
+   "texte": "Les désherbants à base de flufénacet ne sont plus vendus depuis le 10 juin 2026. Les stocks déjà achetés peuvent être utilisés jusqu'au 10 décembre 2026, puis rapportés par la filière Adivalor.",
+   "source": "Règlement d'exécution (UE) 2025/910",
+   "url": "https://eur-lex.europa.eu/eli/reg_impl/2025/910/oj",
+   "jusqu_au": "2026-12-10",
+   "cultures": [
+    "BLE_TENDRE",
+    "BLE_DUR",
+    "ORGE_HIVER",
+    "ORGE_PRINTEMPS",
+    "TRITICALE",
+    "SEIGLE",
+    "AVOINE"
+   ],
+   "titre_en": "Flufenacet: last autumn of use.",
+   "texte_en": "Flufenacet-based herbicides have not been sold since 10 June 2026. Stocks already bought may be used until 10 December 2026, then returned through the Adivalor scheme."
+  },
+  {
+   "id": "2026-pac-avance",
+   "date": "2026-09-15",
+   "niveau": "info",
+   "theme": "pac",
+   "titre": "PAC 2026 : avance attendue à partir de mi-octobre.",
+   "texte": "Avance sur les aides découplées (paiement de base, redistributif, écorégime) prévue à partir de mi-octobre, solde en décembre. Calendrier prévisionnel : suivez votre dossier sur TéléPAC.",
+   "source": "Chambre d'agriculture du Gard, calendrier prévisionnel",
+   "url": "https://gard.chambres-agriculture.fr/actualites-1/actualite/aides-pac-2026-le-calendrier-previsionnel-des-paiements",
+   "jusqu_au": "2026-12-31",
+   "titre_en": "CAP 2026: advance expected from mid-October.",
+   "texte_en": "Advance on decoupled payments (basic, redistributive, eco-scheme) expected from mid-October, balance in December. Provisional schedule: follow your file on TéléPAC."
+  },
+  {
+   "id": "2025-12-24-registre-numerique",
+   "date": "2025-12-24",
+   "niveau": "info",
+   "theme": "registre",
+   "titre": "Registre phyto numérique au 1er janvier 2027.",
+   "texte": "Les traitements faits à partir du 1er janvier 2027 doivent figurer dans un registre électronique, au plus tard le 31 janvier de l'année suivante (puis sous 30 jours à partir de 2030).",
+   "source": "Arrêté du 24/12/2025 (JO du 31/12/2025)",
+   "url": "https://aida.ineris.fr/reglementation/arrete-241225-relatif-a-tenue-registres-dutilisation-produits-phytopharmaceutiques",
+   "titre_en": "Digital spray register from 1 January 2027.",
+   "texte_en": "Treatments made from 1 January 2027 must be recorded in an electronic register, by 31 January of the following year at the latest (then within 30 days from 2030)."
+  }
+ ]
+}
