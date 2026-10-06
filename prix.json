@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-02",
+  "maj": "2026-10-06",
   "note": "Cours de référence. Mettre à jour ce fichier pour actualiser l'onglet Marchés sans toucher au code.",
   "cours": [
     {
@@ -8,9 +8,9 @@
         "Blé tendre"
       ],
       "marche": "Euronext · échéance déc. 2026",
-      "prix": 238,
-      "variation": 2,
-      "date": "2026-10-01",
+      "prix": 247.5,
+      "variation": 1.75,
+      "date": "2026-10-06",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -19,9 +19,9 @@
         "Blé tendre"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 238,
-      "variation": 3,
-      "date": "2026-10-02",
+      "prix": 242,
+      "variation": 1,
+      "date": "2026-10-06",
       "source": "Terre-net"
     },
     {
@@ -30,9 +30,9 @@
         "Maïs grain"
       ],
       "marche": "Euronext · échéance nov. 2026",
-      "prix": 266.75,
+      "prix": 277.25,
       "variation": 2.5,
-      "date": "2026-10-01",
+      "date": "2026-10-06",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -41,9 +41,9 @@
         "Maïs grain"
       ],
       "marche": "Physique · rendu Bordeaux",
-      "prix": 271,
-      "variation": 1.25,
-      "date": "2026-10-02",
+      "prix": 273.5,
+      "variation": -1,
+      "date": "2026-10-06",
       "source": "Terre-net"
     },
     {
