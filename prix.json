@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-06",
+  "maj": "2026-10-07",
   "note": "Cours de référence. Mettre à jour ce fichier pour actualiser l'onglet Marchés sans toucher au code.",
   "cours": [
     {
@@ -20,8 +20,8 @@
       ],
       "marche": "Physique · rendu Rouen",
       "prix": 242,
-      "variation": 1,
-      "date": "2026-10-06",
+      "variation": 0,
+      "date": "2026-10-07",
       "source": "Terre-net"
     },
     {
@@ -41,9 +41,9 @@
         "Maïs grain"
       ],
       "marche": "Physique · rendu Bordeaux",
-      "prix": 273.5,
-      "variation": -1,
-      "date": "2026-10-06",
+      "prix": 275.75,
+      "variation": 2.25,
+      "date": "2026-10-07",
       "source": "Terre-net"
     },
     {
@@ -52,9 +52,9 @@
         "Colza"
       ],
       "marche": "Euronext · échéance nov. 2026",
-      "prix": 538.25,
-      "variation": -1.5,
-      "date": "2026-10-02",
+      "prix": 523,
+      "variation": -3.25,
+      "date": "2026-10-07",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -63,9 +63,9 @@
         "Colza"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 521,
-      "variation": 3.75,
-      "date": "2026-10-02",
+      "prix": 495.5,
+      "variation": -17,
+      "date": "2026-10-07",
       "source": "Terre-net"
     },
     {
