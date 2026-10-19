@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-15",
+  "maj": "2026-10-19",
   "note": "Cours de référence. Mettre à jour ce fichier pour actualiser l'onglet Marchés sans toucher au code.",
   "cours": [
     {
@@ -8,9 +8,9 @@
         "Blé tendre"
       ],
       "marche": "Euronext · échéance déc. 2026",
-      "prix": 246,
-      "variation": -2.25,
-      "date": "2026-10-15",
+      "prix": 243.25,
+      "variation": -0.5,
+      "date": "2026-10-19",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -19,9 +19,9 @@
         "Blé tendre"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 244,
-      "variation": 1,
-      "date": "2026-10-15",
+      "prix": 240,
+      "variation": -4,
+      "date": "2026-10-19",
       "source": "Terre-net"
     },
     {
@@ -30,9 +30,9 @@
         "Maïs grain"
       ],
       "marche": "Euronext · échéance nov. 2026",
-      "prix": 301,
-      "variation": -2,
-      "date": "2026-10-15",
+      "prix": 294,
+      "variation": 1.5,
+      "date": "2026-10-19",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -41,9 +41,9 @@
         "Maïs grain"
       ],
       "marche": "Physique · rendu Bordeaux",
-      "prix": 299.25,
-      "variation": 6.75,
-      "date": "2026-10-15",
+      "prix": 292.75,
+      "variation": -0.75,
+      "date": "2026-10-19",
       "source": "Terre-net"
     },
     {
@@ -52,10 +52,10 @@
         "Colza"
       ],
       "marche": "Euronext · échéance nov. 2026",
-      "prix": 522,
-      "variation": -22.5,
-      "date": "2026-10-14",
-      "source": "Euronext, relevé Terre-net"
+      "prix": 501.75,
+      "variation": 2,
+      "date": "2026-10-16",
+      "source": "Euronext, relevé La Dépêche – Le Petit Meunier"
     },
     {
       "produit": "Colza",
@@ -63,9 +63,9 @@
         "Colza"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 495.25,
-      "variation": -0.25,
-      "date": "2026-10-13",
+      "prix": 497.25,
+      "variation": 7.75,
+      "date": "2026-10-19",
       "source": "Terre-net"
     },
     {
@@ -75,9 +75,9 @@
         "Orge de printemps"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 222.5,
-      "variation": -7,
-      "date": "2026-10-14",
+      "prix": 218,
+      "variation": -2.5,
+      "date": "2026-10-16",
       "source": "La Dépêche – Le Petit Meunier"
     },
     {
@@ -87,8 +87,8 @@
       ],
       "marche": "Physique · rendu Saint-Nazaire",
       "prix": 610,
-      "variation": 10,
-      "date": "2026-10-14",
+      "variation": 0,
+      "date": "2026-10-16",
       "source": "La Dépêche – Le Petit Meunier"
     }
   ]
