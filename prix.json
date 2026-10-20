@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-19",
+  "maj": "2026-10-20",
   "note": "Cours de référence. Mettre à jour ce fichier pour actualiser l'onglet Marchés sans toucher au code.",
   "cours": [
     {
@@ -8,8 +8,8 @@
         "Blé tendre"
       ],
       "marche": "Euronext · échéance déc. 2026",
-      "prix": 243.25,
-      "variation": -0.5,
+      "prix": 243.5,
+      "variation": -0.25,
       "date": "2026-10-19",
       "source": "Euronext, relevé Terre-net"
     },
@@ -52,10 +52,10 @@
         "Colza"
       ],
       "marche": "Euronext · échéance nov. 2026",
-      "prix": 501.75,
-      "variation": 2,
-      "date": "2026-10-16",
-      "source": "Euronext, relevé La Dépêche – Le Petit Meunier"
+      "prix": 493.25,
+      "variation": -8.5,
+      "date": "2026-10-19",
+      "source": "Euronext, relevé Terre-net"
     },
     {
       "produit": "Colza",
