@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-23",
+  "maj": "2026-10-26",
   "note": "Cours de référence. Mettre à jour ce fichier pour actualiser l'onglet Marchés sans toucher au code.",
   "cours": [
     {
@@ -8,9 +8,9 @@
         "Blé tendre"
       ],
       "marche": "Euronext · échéance déc. 2026",
-      "prix": 234.5,
-      "variation": 1.75,
-      "date": "2026-10-22",
+      "prix": 234,
+      "variation": -0.25,
+      "date": "2026-10-23",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -30,9 +30,9 @@
         "Maïs grain"
       ],
       "marche": "Euronext · échéance nov. 2026",
-      "prix": 283,
-      "variation": -8.25,
-      "date": "2026-10-22",
+      "prix": 283.75,
+      "variation": -1.25,
+      "date": "2026-10-23",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -52,9 +52,9 @@
         "Colza"
       ],
       "marche": "Euronext · échéance nov. 2026",
-      "prix": 497.75,
-      "variation": 12,
-      "date": "2026-10-22",
+      "prix": 511.75,
+      "variation": 14,
+      "date": "2026-10-23",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -75,9 +75,9 @@
         "Orge de printemps"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 208.5,
-      "variation": 1.5,
-      "date": "2026-10-22",
+      "prix": 208,
+      "variation": -0.5,
+      "date": "2026-10-23",
       "source": "La Dépêche – Le Petit Meunier"
     },
     {
@@ -86,9 +86,9 @@
         "Tournesol"
       ],
       "marche": "Physique · rendu Saint-Nazaire",
-      "prix": 610,
+      "prix": 620,
       "variation": 0,
-      "date": "2026-10-16",
+      "date": "2026-10-23",
       "source": "La Dépêche – Le Petit Meunier"
     }
   ]
