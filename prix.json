@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-28",
+  "maj": "2026-10-29",
   "note": "Cours de référence. Mettre à jour ce fichier pour actualiser l'onglet Marchés sans toucher au code.",
   "cours": [
     {
@@ -8,9 +8,9 @@
         "Blé tendre"
       ],
       "marche": "Euronext · échéance déc. 2026",
-      "prix": 228.5,
-      "variation": 2,
-      "date": "2026-10-27",
+      "prix": 227.25,
+      "variation": 0.25,
+      "date": "2026-10-29",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -19,9 +19,9 @@
         "Blé tendre"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 231,
-      "variation": -6,
-      "date": "2026-10-22",
+      "prix": 224,
+      "variation": -3,
+      "date": "2026-10-29",
       "source": "Terre-net"
     },
     {
@@ -30,9 +30,9 @@
         "Maïs grain"
       ],
       "marche": "Euronext · échéance nov. 2026",
-      "prix": 283.25,
-      "variation": 0.5,
-      "date": "2026-10-27",
+      "prix": 308.5,
+      "variation": 20.5,
+      "date": "2026-10-29",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -41,9 +41,9 @@
         "Maïs grain"
       ],
       "marche": "Physique · rendu Bordeaux",
-      "prix": 286,
-      "variation": -3.25,
-      "date": "2026-10-21",
+      "prix": 272.5,
+      "variation": 5.75,
+      "date": "2026-10-29",
       "source": "Terre-net"
     },
     {
@@ -52,9 +52,9 @@
         "Colza"
       ],
       "marche": "Euronext · échéance nov. 2026",
-      "prix": 527.25,
-      "variation": 15.5,
-      "date": "2026-10-26",
+      "prix": 528.25,
+      "variation": 9.75,
+      "date": "2026-10-28",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -63,9 +63,9 @@
         "Colza"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 497.25,
-      "variation": 7.75,
-      "date": "2026-10-19",
+      "prix": 525,
+      "variation": 15.25,
+      "date": "2026-10-28",
       "source": "Terre-net"
     },
     {
@@ -75,9 +75,9 @@
         "Orge de printemps"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 202.5,
-      "variation": 2,
-      "date": "2026-10-27",
+      "prix": 207.5,
+      "variation": 5,
+      "date": "2026-10-28",
       "source": "La Dépêche – Le Petit Meunier"
     },
     {
