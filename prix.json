@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-30",
+  "maj": "2026-11-02",
   "note": "Cours de référence. Mettre à jour ce fichier pour actualiser l'onglet Marchés sans toucher au code.",
   "cours": [
     {
@@ -8,9 +8,9 @@
         "Blé tendre"
       ],
       "marche": "Euronext · échéance déc. 2026",
-      "prix": 227.25,
-      "variation": 0.25,
-      "date": "2026-10-29",
+      "prix": 229,
+      "variation": 1,
+      "date": "2026-11-02",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -30,9 +30,9 @@
         "Maïs grain"
       ],
       "marche": "Euronext · échéance nov. 2026",
-      "prix": 308.5,
-      "variation": 20.5,
-      "date": "2026-10-29",
+      "prix": 298,
+      "variation": -9.75,
+      "date": "2026-11-02",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -51,10 +51,10 @@
       "cultures": [
         "Colza"
       ],
-      "marche": "Euronext · échéance nov. 2026",
-      "prix": 528,
-      "variation": -0.75,
-      "date": "2026-10-30",
+      "marche": "Euronext · échéance févr. 2027",
+      "prix": 545.75,
+      "variation": -9.5,
+      "date": "2026-11-02",
       "source": "Euronext, relevé Terre-net"
     },
     {
@@ -63,9 +63,9 @@
         "Colza"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 539,
-      "variation": 3.75,
-      "date": "2026-10-29",
+      "prix": 546.75,
+      "variation": 16.75,
+      "date": "2026-11-02",
       "source": "Terre-net"
     },
     {
@@ -75,9 +75,9 @@
         "Orge de printemps"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 207.5,
-      "variation": 5,
-      "date": "2026-10-28",
+      "prix": 208.5,
+      "variation": 1,
+      "date": "2026-10-30",
       "source": "La Dépêche – Le Petit Meunier"
     },
     {
@@ -86,9 +86,9 @@
         "Tournesol"
       ],
       "marche": "Physique · rendu Saint-Nazaire",
-      "prix": 624.5,
-      "variation": -0.75,
-      "date": "2026-10-29",
+      "prix": 617.75,
+      "variation": 5,
+      "date": "2026-11-02",
       "source": "Terre-net"
     }
   ]
