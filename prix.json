@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-02",
+  "maj": "2026-11-24",
   "note": "Cours de référence. Mettre à jour ce fichier pour actualiser l'onglet Marchés sans toucher au code.",
   "cours": [
     {
@@ -75,9 +75,9 @@
         "Orge de printemps"
       ],
       "marche": "Physique · rendu Rouen",
-      "prix": 208.5,
-      "variation": 1,
-      "date": "2026-10-30",
+      "prix": 214.5,
+      "variation": -1,
+      "date": "2026-11-18",
       "source": "La Dépêche – Le Petit Meunier"
     },
     {
@@ -86,10 +86,10 @@
         "Tournesol"
       ],
       "marche": "Physique · rendu Saint-Nazaire",
-      "prix": 617.75,
-      "variation": 5,
-      "date": "2026-11-02",
-      "source": "Terre-net"
+      "prix": 615,
+      "variation": -2.5,
+      "date": "2026-11-04",
+      "source": "La Dépêche – Le Petit Meunier"
     }
   ]
 }

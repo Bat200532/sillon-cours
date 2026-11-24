@@ -1,5 +1,5 @@
 {
-  "maj": "2026-11-02",
+  "maj": "2026-11-24",
   "note": "Historique des cours (un point par séance). Complété chaque soir par la tâche des cours, à partir de prix.json.",
   "series": [
     {
@@ -455,6 +455,10 @@
         [
           "2026-10-30",
           208.5
+        ],
+        [
+          "2026-11-18",
+          214.5
         ]
       ]
     },
@@ -492,6 +496,10 @@
         [
           "2026-11-02",
           617.75
+        ],
+        [
+          "2026-11-04",
+          615
         ]
       ]
     },
